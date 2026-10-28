@@ -1,10 +1,14 @@
-# A push to the default branch: a plugin whose folder is gone from the repository is dropped from
-# plugins.json on the gh-pages branch, with its zip there. Its GitHub releases stay.
+# A push to the default branch that adds, changes or removes a plugin.toml: a plugin whose folder is
+# gone from the repository is dropped from plugins.json on the gh-pages branch, with its zip there.
+# Its GitHub releases stay.
 name: Unlist
 
 on:
   push:
     branches: ['**']
+    # A plugin is a plugin.toml in the repository's root or a folder directly in it; only a push
+    # that touches one can leave plugins.json listing a plugin the repository no longer holds.
+    paths: ['plugin.toml', '*/plugin.toml']
 
 permissions:
   contents: read
