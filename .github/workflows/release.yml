@@ -17,7 +17,7 @@ concurrency:
 
 env:
   # The Dereth release whose author's tool this repository uses: its rules are that release's.
-  DERETH: '0.4.7'
+  DERETH: '0.4.8'
   # The source's name, as launchers show it.
   SOURCE_NAME: 'Plugin Template'
 

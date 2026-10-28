@@ -13,7 +13,7 @@ permissions:
 
 env:
   # The Dereth release whose author's tool this repository uses: its rules are that release's.
-  DERETH: '0.4.7'
+  DERETH: '0.4.8'
 
 jobs:
   check:
