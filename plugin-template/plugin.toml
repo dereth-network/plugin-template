@@ -1,6 +1,6 @@
 id = "io.github.dereth-network.plugin-template"
 name = "Plugin Template"
-version = "0.1.0"
+version = "0.1.1"
 api = "0.7"
 entry = "main.lua"
 description = "Says hi"
