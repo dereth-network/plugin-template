@@ -1,0 +1,10 @@
+id = "io.github.dereth-network.plugin-template"
+name = "Plugin Template"
+version = "0.1.0"
+api = "0.7"
+entry = "main.lua"
+description = "Says hi"
+homepage = "https://github.com/dereth-network/plugin-template"
+
+[capabilities]
+optional = ["ui.window"]
